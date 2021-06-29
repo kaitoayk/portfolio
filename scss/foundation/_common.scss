@@ -1,0 +1,29 @@
+.cmn-title{
+
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    color:#1571DA;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+    @include overTab{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .main{
+
+        font-size:35px;
+    }
+
+    .sub{
+        font-size:20px;
+    }
+
+}
